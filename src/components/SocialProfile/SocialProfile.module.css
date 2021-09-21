@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500&display=swap');
+.profile {
+  margin: 0 auto;
+  width: 300px;
+
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+
+  color: grey;
+  background: #fff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.description {
+  border-bottom: 1px solid #80808080;
+}
+.name {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+  font-size: 18px;
+}
+.tag,
+.location {
+  font-size: 12px;
+  text-transform: initial;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: lightgrey;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.stats li {
+  width: 33.3%;
+  padding: 20px;
+}
+.stats li:not(:last-child) {
+  border-right: 1px solid #80808080;
+}
+.label,
+.quantity {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+}
+.quantity {
+  color: black;
+  font-weight: 500;
+}
+.avatar {
+  height: 250px;
+  margin: 0 auto;
+}
