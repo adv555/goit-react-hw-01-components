@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500&display=swap');
 .profile {
   margin: 0 auto;
+  margin-top: 30px;
   width: 300px;
 
   font-family: 'Poppins', sans-serif;

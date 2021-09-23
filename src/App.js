@@ -1,9 +1,12 @@
 import './App.css';
-import Profile from 'components/SocialProfile/SocialProfile';
+import Profile from 'components/SocialProfile';
 import user from 'components/SocialProfile/user.json';
 
-import Statistics from 'components/Statistics/Statistics';
+import Statistics from 'components/Statistics';
 import statisticalData from 'components/Statistics/statistical-data.json';
+
+import FriendList from 'components/FriendList';
+import friends from 'components/FriendList/friends.json';
 
 function App() {
   return (
@@ -15,8 +18,9 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics title="Upload stats" stats={statisticalData} />;
-      <Statistics stats={statisticalData} />;
+      <Statistics title="Upload stats" stats={statisticalData} />
+      <Statistics stats={statisticalData} />
+      <FriendList friends={friends} />
     </>
   );
 }
