@@ -27,6 +27,7 @@
 .location {
   font-size: 12px;
   text-transform: initial;
+  margin-bottom: 5px;
 }
 
 .stats {
