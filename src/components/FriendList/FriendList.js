@@ -22,13 +22,15 @@ const FriendList = ({ friends }) => {
   );
 };
 
-FriendList.prototype = {
-  friends: PropTypes.shape({
-    avatar: PropTypes.string,
-    name: PropTypes.string,
-    isOnline: PropTypes.bool.isRequired,
-    id: PropTypes.number.isRequired,
-  }).isRequired,
+FriendList.propTypes = {
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      avatar: PropTypes.string,
+      name: PropTypes.string,
+      isOnline: PropTypes.bool.isRequired,
+      id: PropTypes.number.isRequired,
+    }).isRequired,
+  ).isRequired,
 };
 
 export default FriendList;
