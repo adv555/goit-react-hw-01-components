@@ -1,7 +1,8 @@
 .statistics {
   margin: 0 auto;
   margin-top: 30px;
-  width: 400px;
+  min-width: 400px;
+  width: 60%;
 
   font-family: 'Poppins', sans-serif;
   text-align: center;
